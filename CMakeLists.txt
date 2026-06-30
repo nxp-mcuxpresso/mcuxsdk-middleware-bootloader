@@ -4203,7 +4203,7 @@ endif()
 if(CONFIG_MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1152_startup)
     mcux_component_version(2.7.0)
     mcux_add_source(
-        SOURCES ../../devices_int/RT/RT1150/MIMXRT1152/system_MIMXRT1152.h
+        SOURCES ../../devices/RT/RT1150/MIMXRT1152/system_MIMXRT1152.h
         CORES cm7f
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
     )
@@ -4236,7 +4236,7 @@ if(CONFIG_MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1152_startup)
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
     )
     mcux_add_include(
-        INCLUDES ../../devices_int/MIMXRT1152
+        INCLUDES ../../devices/MIMXRT1152
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
     )
 endif()
