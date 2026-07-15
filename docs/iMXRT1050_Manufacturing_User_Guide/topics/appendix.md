@@ -1,6 +1,6 @@
 # Appendix
 
-```{include} ../topics/topics/plugin_boot_application.md
+```{include} ../topics/plugin_boot_application.md
 :heading-offset: 1
 ```
 
