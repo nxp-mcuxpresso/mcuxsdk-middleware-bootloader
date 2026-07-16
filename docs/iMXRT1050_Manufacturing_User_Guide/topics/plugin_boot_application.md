@@ -11,19 +11,19 @@ The prototype of plugin boot application is:
 
 boot (\*plugin\_download\)(void \*\*start, size\_t \*bytes, uint32\_t \*ivt\_offset\);
 
-```{include} ../topics/principles_for_plugin_boot_application_design.md
+```{include} principles_for_plugin_boot_application_design.md
 :heading-offset: 2
 ```
 
-```{include} ../topics/boot_flow_of_plugin_boot_application.md
+```{include} boot_flow_of_plugin_boot_application.md
 :heading-offset: 2
 ```
 
-```{include} ../topics/example_plugin_boot_application_to_enable_non-xip_.md
+```{include} example_plugin_boot_application_to_enable_non-xip_.md
 :heading-offset: 2
 ```
 
-```{include} ../topics/images_loaded_by_plugin_boot_application.md
+```{include} images_loaded_by_plugin_boot_application.md
 :heading-offset: 2
 ```
 

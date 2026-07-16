@@ -7,22 +7,22 @@ Assuming the PKI tree is ready for cst use, copy “ca”, “crts”, and “ke
 **Copy required key and certificates for signed image generation**
 ![](../images/figure50.png "Copy required key and certificates for signed image generation")
 
-```{include} ../topics/generate_signed_imx_rt_bootable_image.md
+```{include} generate_signed_imx_rt_bootable_image.md
 :heading-offset: 3
 ```
 
-```{include} ../topics/create_sb_file_for_fuse_programming.md
+```{include} create_sb_file_for_fuse_programming.md
 :heading-offset: 3
 ```
 
-```{include} ../topics/create_sb_file_for_image_encryption_and_programmin.md
+```{include} create_sb_file_for_image_encryption_and_programmin.md
 :heading-offset: 3
 ```
 
-```{include} ../topics/create_signed_flashloader_image.md
+```{include} create_signed_flashloader_image.md
 :heading-offset: 3
 ```
 
-```{include} ../topics/program_signed_image_to_flash_using_mfgtool.md
+```{include} program_image_to_flash_using_mfgtool.md
 :heading-offset: 3
 ```
