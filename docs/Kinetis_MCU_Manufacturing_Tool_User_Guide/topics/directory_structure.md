@@ -4,7 +4,6 @@ The MfgTool for MCU devices is bundled together with the MCU bootloader in `<sdk
 
 **MCU bootloader folder hierarchy**
 
-![](../images/mcu_bootloader_folder_hierarchy.png "MCU bootloader folder hierarchy")
 
 In the package, the *mfgtools-rel* folder appears in the *middleware/mcu-boot/bin/tools*. *blhost*is released on MCUBOOT webpage [nxp.com/MCUBOOT](http://www.nxp.com/MCUBOOT).
 

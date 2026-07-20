@@ -6,7 +6,6 @@ The typical setup during manufacturing is shown in the image below with four dev
 
 **Typical setup at manufacturing**
 
-![](../images/manufacturing_process.png "Typical setup at manufacturing")
 
 The manufacturing process begins when the operator launches the MfgTool application and clicks the *Start* button.
 

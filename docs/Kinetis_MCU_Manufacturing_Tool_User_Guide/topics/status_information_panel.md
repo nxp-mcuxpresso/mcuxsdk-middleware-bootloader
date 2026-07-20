@@ -6,19 +6,16 @@ The image below shows manufacturing in progress.
 
 **Manufacturing in progress**
 
-![](../images/in_progress.png "Manufacturing in progress")
 
 The image below shows that manufacturing completed successfully for one single device.
 
 **Manufacturing completed successfully**
 
-![](../images/success.png "Manufacturing completed successfully")
 
 The image below shows an error has occurred during manufacturing of one single device.
 
 **Error occurred during manufacturing**
 
-![](../images/error.png "Error occurred during manufacturing")
 
 **Parent topic:**[GUI elements](../topics/gui_elements.md#)
 

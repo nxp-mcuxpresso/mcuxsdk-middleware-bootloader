@@ -59,7 +59,7 @@ MCU Bootloader
 .. toctree::
    :maxdepth: 1   
    
-   i.MX RT1060 Flashloader Release Notes <iMXRT1060_Flashloader_Release_Notes/index.md> 
+   i.MX RT1060 Flashloader Release Notes <iMXRT1060_Flashloader_Release_Notes/IMXRT1060FLDRRN/index.md> 
    
 .. toctree::
    :maxdepth: 1  

@@ -15,13 +15,11 @@ For example, if only one device is supported at a time, the "PortMgrDlg=1" shoul
 
 **MfgTool UI with one panel in UICfg.ini**
 
-![](../images/mfgtool.png "MfgTool UI with one panel in UICfg.ini")
 
 A maximum of up to four devices that can be simultaneously connected and updated using the MfgTool is supported. The PortMgrDlg entry in the *UICfg.ini* file can be set to any of one, two, three, or four panels, depending on the manufacturing needs. Here is an example screenshot with four ports:
 
 **MfgTool UI with four panels in UICfg.ini**
 
-![](../images/mfgtool4.png "MfgTool UI with four panels in UICfg.ini")
 
 -   The *cfg.ini* file is used to configure the target chip profile and target operation list.
 

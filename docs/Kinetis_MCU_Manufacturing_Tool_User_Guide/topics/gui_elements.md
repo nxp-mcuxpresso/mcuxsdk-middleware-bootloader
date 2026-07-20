@@ -4,7 +4,6 @@ The GUI window of the MfgTool application consists of two types of panels. The p
 
 **UI showing one device connected to the PC host in the idle state**
 
-![](../images/ui1.png "UI showing one device connected to the PC host in the idle state")
 
 
 ```{include} ../topics/device_panel.md

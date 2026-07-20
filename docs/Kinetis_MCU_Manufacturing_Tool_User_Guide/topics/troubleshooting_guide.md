@@ -8,7 +8,6 @@ In this example, the “*Get Property 1*” command was sent to two devices. One
 
 **UI showing successful update for the first device and error for the second device**
 
-![](../images/2ui.png "UI showing successful update for the first device and error for the second device")
 
 The red progress bar indicates that the device connected to the Hub 4-Port 1 failed. The corresponding result, logged to the *MfgTool.log* file looks as follows:
 

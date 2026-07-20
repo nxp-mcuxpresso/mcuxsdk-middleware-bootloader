@@ -22,13 +22,11 @@ The below figure shows the Windows OS Device Manager showing one MCU bootloader 
 
 **Windows OS Device Manager showing MCUs connected in the USB-HID and UART modes**
 
-![](../images/windows_device_manager_kbl_usb.png "Windows OS Device Manager showing MCUs connected in the USB-HID and UART modes")
 
 The figure below shows the corresponding 4-panel MfgTool user interface for the above-connected devices showing one device connected in the HID mode, two devices connected in the CDC mode, and the last panel displaying as "No device connected".
 
 **4-panel UI with three devices connected**
 
-![](../images/4ui.png "4-panel UI with three devices connected")
 
 **Note:** See the*MCU Bootloader Demo Applications User's Guide* \(document ID MBOOTDEMOUG\) available at [www.nxp.com/MCUBOOT](http://www.nxp.com/KBOOT) page for instructions on how to connect the target platform MCU.
 

@@ -13,5 +13,4 @@ topics/release_contents.md
 topics/getting_started.md
 topics/features.md
 topics/host_tools.md
-topics/revision_history.md
 ```
