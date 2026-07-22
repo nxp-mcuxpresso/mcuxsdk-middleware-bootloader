@@ -3,7 +3,7 @@
 In development phase, generally the image is unsigned and is used for functional testing.
 
 
-```{include}../topics/create_imx_rt_bootable_image.md
+```{include} ../topics/create_imx_rt_bootable_image.md
 :heading-offset: 3
 ```
 
