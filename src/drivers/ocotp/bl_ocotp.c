@@ -159,10 +159,13 @@ status_t ocotp_program_once(OCOTP_Type *base, uint32_t index, uint32_t *src, uin
     }
 
 // Check the error status;
-#ifdef K32H844P_SERIES
+#if defined (K32H844P_SERIES)
     if (base->CTRL.RW & OCOTP_CTRL_ERROR_MASK)
-#else
+#elif defined (MIMXRT1176_cm4_SERIES) || defined(MIMXRT1176_cm7_SERIES) || defined(MIMXRT1166_cm4_SERIES) || \
+    defined(MIMXRT1166_cm7_SERIES)
     if ((base->CTRL & OCOTP_CTRL_ERROR_MASK) || (base->OUT_STATUS & (OCOTP_OUT_STATUS_LOCKED_MASK | OCOTP_OUT_STATUS_PROGFAIL_MASK)))
+#else
+    if (base->CTRL & OCOTP_CTRL_ERROR_MASK)
 #endif
     {
         return kStatus_OCOTP_ProgramFailure;
