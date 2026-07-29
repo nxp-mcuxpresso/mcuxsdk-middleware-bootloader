@@ -8,7 +8,8 @@ In development phase, generally the image is unsigned and is used for functional
 ```
 
 ```{include} ../topics/create_imx_rt_bootable_image.md
-:heading-offset: 3```
+:heading-offset: 3
+```
 
 
 
