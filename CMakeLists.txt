@@ -3693,7 +3693,7 @@ if(CONFIG_MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1189_startup)
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
     )
     mcux_add_source(
-        SOURCES ../../devices/RT/RT1180/MIMXRT1189/arm/startup_MIMXRT1189_cm33.S
+        SOURCES targets/MIMXRT1189/src/startup/arm/startup_MIMXRT1189_cm33.S
         TOOLCHAINS mdk
         CORES cm33
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
@@ -3903,7 +3903,7 @@ if(CONFIG_MCUX_COMPONENT_middleware.mcu-boot.MIMXRT1186_startup)
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
     )
     mcux_add_source(
-        SOURCES ../../devices/RT/RT1180/MIMXRT1186/arm/startup_MIMXRT1186_cm33.S
+        SOURCES targets/MIMXRT1186/src/startup/arm/startup_MIMXRT1186_cm33.S
         TOOLCHAINS mdk
         CORES cm33
         BASE_PATH ${SdkRootDirPath}/middleware/mcu_bootloader/
